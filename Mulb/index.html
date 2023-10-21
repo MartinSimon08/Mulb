@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mulb</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">Mulb</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Inicio</a></li>
+          <li class="link"><a href="#choose">Acerca de</a></li>
+          <li class="link"><a href="#craft">Crear</a></li>
+          <li class="link"><a href="#testimonial">Clientes</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav__actions">
+          <span><i class="ri-search-fill"></i></span>
+          <span><i class="ri-user-fill"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Crea tu diseño minimalista y modernos</h1>
+        <p>
+          Convierte tu habitación en una mucho más linda y moderna con
+          facilidad y velocidad
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Buscar muebles" />
+          <button><i class="ri-search-line"></i></button>
+        </form>
+        <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
+      </div>
+    </header>
+
+    <section class="section__container choose__container" id="choose">
+      <img class="choose__bg" src="assets/dot-bg.png" alt="bg" />
+      <div class="choose__content">
+        <h2 class="section__header">Por que elegirnos?</h2>
+        <p class="section__subheader">
+          Experimente una creatividad y experiencia inigualables en diseño de interiores. 
+          Descubra por qué somos la opción correcta para el espacio de sus sueños
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-truck-line"></i></span>
+            <h4>Envio rapido y gratuito</h4>
+            <p>
+              Cree su diseño interior con nuestro servicio de Envío Rápido y Gratis
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-shopping-bag-3-line"></i></span>
+            <h4>Facil de comprar</h4>
+            <p>
+              Descubra nuestras compras rapidas para que los muebles lleguen siempre a su casa
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-customer-service-2-line"></i></span>
+            <h4>Soporte 24/7</h4>
+            <p>
+              Atencion de calidad garantizada las 24 horas del dia<br>
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-loop-right-line"></i></span>
+            <h4>Devoluciones gratuitas</h4>
+            <p>
+             Devoluciones rapidas, sin problemas y sin costos <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose__image">
+        <img src="assets/choose.jpg" alt="choose" />
+      </div>
+    </section>
+
+    <section class="offer__container" id="offer">
+      <div class="offer__grid__top">
+        <img src="assets/offer-1.jpg" alt="offer" />
+        <img src="assets/offer-2.jpg" alt="offer" />
+        <img src="assets/offer-3.jpg" alt="offer" />
+        <div class="offer__content">
+          <h2 class="section__header">Ofertas inteligentes</h2>
+          <p class="section__subheader">
+            Explorar ideas para transformar tu espacio
+          </p>
+          <button class="btn">Explorar</button>
+        </div>
+      </div>
+      <div class="offer__grid__bottom">
+        <img src="assets/offer-4.jpg" alt="offer" />
+        <img src="assets/offer-5.jpg" alt="offer" />
+        <img src="assets/offer-6.jpg" alt="offer" />
+        <img src="assets/offer-7.jpg" alt="offer" />
+      </div>
+    </section>
+
+    <section class="section__container craft__container" id="craft">
+      <div class="craft__content">
+        <h2 class="section__header">Creadas con materiales de primera</h2>
+        <p class="section__subheader">
+          Mejora tu espacio con nuestros productos
+        </p>
+        <button class="btn">Explore</button>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="assets/craft-1.png" alt="craft" />
+          <p>Silla nordica</p>
+          <h4>$9500.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="assets/craft-2.png" alt="craft" />
+          <p>Silla hundida</p>
+          <h4>$18000.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+      <div class="craft__image">
+        <div class="craft__image__content">
+          <img src="assets/craft-3.png" alt="craft" />
+          <p>Silla de cafe</p>
+          <h4>$7000.00</h4>
+        </div>
+        <a href="#"><i class="ri-add-line"></i></a>
+      </div>
+    </section>
+
+    <section class="section__container modern__container" id="modern">
+      <div class="modern__image">
+        <img src="assets/dot-bg.png" alt="bg" class="modern__bg" />
+        <img src="assets/modern-1.jpg" alt="modern" class="modern__img-1" />
+        <img src="assets/modern-2.jpg" alt="modern" class="modern__img-2" />
+        <img src="assets/modern-3.jpg" alt="modern" class="modern__img-3" />
+      </div>
+      <div class="modern__content">
+        <h2 class="section__header">
+          Te ayudamos a diseñar tu diseño moderno y sofisticado
+        </h2>
+        <p class="section__subheader">
+          Transforme su espacio con nuestra experiencia en diseño de interiores contemporáneo:
+          Permítanos guiarle en la creación de interiores elegantes y con estilo que reflejen
+          tu gusto y estilo de vida únicos
+        </p>
+        <div class="modern__grid">
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Nuestro equipo se especializa en crear diseños de interiores personalizados que
+               abrazar la estética moderna.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Nos mantenemos a la vanguardia de las tendencias de diseño, asegurando que su espacio sea
+               elegante e innovador.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Nos mantenemos a la vanguardia de las tendencias de diseño, asegurando que su espacio sea
+              elegante e innovador.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Nos encargamos de todos los aspectos del proceso de diseño, desde el concepto hasta
+               adquisición e instalación.
+            </p>
+          </div>
+        </div>
+        <button class="btn">Explorar</button>
+      </div>
+    </section>
+
+    <section class="section__container testimonial__container" id="testimonial">
+      <h2 class="section__header">Testimonios</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                Se encargaron de todos los aspectos del proceso de diseño, desde el concepto hasta
+                adquisición e instalación. Su diseño moderno
+                  experiencia transformó completamente mi casa en un contemporáneo
+                  refugio. Ahora tengo un espacio que no sólo luce impresionante sino también
+                  se siente increíblemente cómodo. No podría estar más feliz con el
+                  resultados
+              </p>
+              <img src="assets/profile-pic-1.jpg" alt="testimonial" />
+              <h4>Julian Maruca</h4>
+              <h5>Arquitecto</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                Los contraté para renovar nuestro espacio de oficina y los resultados
+                superó mis expectativas. Sus conceptos de diseño innovadores.
+                insufló nueva vida a nuestro lugar de trabajo, haciéndolo funcional
+                y elegante. La atención al detalle y el compromiso del equipo con
+                La calidad es realmente buena.
+              </p>
+              <img src="assets/profile-pic-2.jpg" alt="testimonial" />
+              <h4>Michelle</h4>
+              <h5>Diseñadora de moda</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                Tuve una visión de una casa de inspiración minimalista y trajeron
+                darle vida sin problemas. Sus diseñadores entendieron mi estética.
+                e incorporó líneas elegantes y limpias y una paleta de colores neutros
+                para crear un oasis de serenidad. Estoy enamorado de mi moderno,
+                espacio libre de desorden!
+              </p>
+              <img src="assets/profile-pic-3.jpg" alt="testimonial" />
+              <h4>Martin Simon</h4>
+              <h5>Oficinista</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                Lo que los diferencia es su profesionalismo y eficiencia.
+                Hicieron que todo el proceso de diseño fuera sencillo, desde el
+                consulta inicial hasta la instalación final. Su equipo
+                manejó todo, dejándome con un bellamente diseñado
+                interior moderno
+              </p>
+              <img src="assets/profile-pic-4.jpg" alt="testimonial" />
+              <h4>David Gomez</h4>
+              <h5>Arquitecto</h5>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container blog_container" id="blog">
+      <h2 class="section__header">Publicaciones Recientes</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <h4>Hermoso y minimalista</h4>
+          <p><span>Por</span> LittleDiseño <span>el</span> Apr 20, 2023</p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <h4>Diseños ambientales</h4>
+          <p>
+            <span>Por</span> Gardens <span>el</span> Nov 28, 2023
+          </p>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <h4>Eco-Ejecutivo</h4>
+          <p><span>Por</span> EstiloEjecutivo <span>el</span> Feb 11, 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h4>Suscribete para recibir novedades</h4>
+          <p>
+            Ingrese sus datos para empezar a recibir actualizaciones
+          </p>
+        </div>
+        <div class="footer__form">
+          <form action="/">
+            <input type="text" placeholder="Email" />
+            <button>Subscribirse</button>
+          </form>
+        </div>
+      </div>
+      <div class="section__container footer__bar">
+        <div class="footer__logo">
+          <h4><a href="#">Mulb</a></h4>
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#">Sobre nosotros</a></li>
+          <li class="footer__link"><a href="#">Politic de privacidad</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
